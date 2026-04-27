@@ -11,6 +11,11 @@ public class ChatClient {
             System.out.println("Connected to chat server");
 
             BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+            
+            // 👇 ADD THIS
+            System.out.print("Enter your name: ");
+            String name = keyboard.readLine();
+
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
@@ -26,10 +31,11 @@ public class ChatClient {
                 }
             }).start();
 
-            // Main thread sends messages
+            // Send messages
             String userInput;
             while ((userInput = keyboard.readLine()) != null) {
-                out.println(userInput);
+                // 👇 MODIFY THIS
+                out.println(name + ": " + userInput);
             }
 
         } catch (IOException e) {
