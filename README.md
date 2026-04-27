@@ -41,3 +41,15 @@ Each client will be prompted to enter a name. Once connected, users can start se
 This project demonstrates key concepts such as socket programming, multithreading, and concurrent communication in Java. It is a basic but effective implementation of how chat systems work. Additional features like private messaging, GUI interface, or message timestamps can be added to enhance functionality further.
 
 Overall, this application provides a clear understanding of how multiple clients can communicate simultaneously through a server using threads.
+
+
+
+
+#OUTPUT
+
+<img width="1222" height="331" alt="Image" src="https://github.com/user-attachments/assets/5633820a-bbe4-4761-8f9f-6263763ba26b" />
+<img width="1235" height="255" alt="Image" src="https://github.com/user-attachments/assets/c3b47923-8d3a-4dee-9dd1-ecf84ef938f6" />
+<img width="1258" height="293" alt="Image" src="https://github.com/user-attachments/assets/cc4ec2dc-1824-4b74-acab-3cc8bcbd4e0a" />
+<img width="1219" height="254" alt="Image" src="https://github.com/user-attachments/assets/8035fb7e-48f2-4d3c-aae8-43c2421cd2ea" />
+
+
